@@ -1,4 +1,4 @@
-# Customer Retention Modeling
+# Customer Retention Modelling
 
 A customer analytics project that predicts customer retention using RFM (Recency, Frequency, Monetary) analysis and logistic regression.
 
@@ -10,7 +10,7 @@ The project develops a customer response model from historical transaction data 
 
 Customer retention is one of the most important drivers of long-term business profitability. Identifying customers who are likely to return allows companies to improve marketing efficiency, personalize promotions, and reduce customer churn.
 
-This project analyzes transaction data from an online bookstore to predict whether customers will make repeat purchases during a future time period using historical purchasing behavior.
+This project analyzes transaction data from an online bookstore to predict whether customers will make repeat purchases during a future time period using historical purchasing behaviour.
 
 The analysis combines RFM customer segmentation with logistic regression to develop an interpretable customer retention model.
 
@@ -68,7 +68,7 @@ The data was divided into a **calibration period** (transactions on or before Se
 1. Data preprocessing
 2. Customer-level data restructuring
 3. RFM feature engineering
-4. Customer retention labeling
+4. Customer retention labelling
 5. Logistic regression model development
 6. ROC and AUC evaluation
 7. Decile analysis
@@ -80,7 +80,7 @@ The data was divided into a **calibration period** (transactions on or before Se
 
 ## Feature Engineering
 
-Customer purchasing behavior was summarized using the RFM framework.
+Customer purchasing behaviour was summarized using the RFM framework.
 
 ### Recency
 
@@ -94,7 +94,7 @@ Number of purchases made during the calibration period.
 
 Average transaction value during the calibration period.
 
-Customers were labeled as **retained** if they made at least one purchase during the validation period. :contentReference[oaicite:2]{index=2}
+Customers were labelled as **retained** if they made at least one purchase during the validation period. :contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -160,7 +160,7 @@ The logistic regression model consistently outperformed individual RFM variables
 
 Major findings include:
 
-- Recent purchasing behavior strongly predicts future retention.
+- Recent purchasing behaviour strongly predicts future retention.
 - Purchase frequency is the strongest indicator of repeat purchasing.
 - Customers with higher spending levels are generally more likely to be retained.
 - Logistic regression provides better customer ranking performance than using individual RFM metrics alone.
@@ -186,7 +186,7 @@ customer-retention-modeling/
 
 │
 ├── Code.ipynb
-├── Customer Retention Modeling Report.pdf
+├── Customer Retention Modelling Report.pdf
 ├── book_transaction.csv
 └── README.md
 ```
@@ -197,9 +197,9 @@ customer-retention-modeling/
 
 | File | Description |
 |------|-------------|
-| Code.ipynb | Data preprocessing, RFM feature engineering, logistic regression modeling, and evaluation |
+| Code.ipynb | Data preprocessing, RFM feature engineering, logistic regression modelling, and evaluation |
 | Book Transaction Report.pdf | Project report including methodology, visualizations, and findings |
-| book_transaction.csv | Transaction dataset used for customer retention modeling |
+| book_transaction.csv | Transaction dataset used for customer retention modelling |
 | README.md | Project documentation |
 
 ---
@@ -219,7 +219,7 @@ Potential future enhancements include:
 ## Skills Demonstrated
 
 - Customer Analytics
-- Customer Retention Modeling
+- Customer Retention Modelling
 - CRM Analytics
 - RFM Analysis
 - Logistic Regression
@@ -229,6 +229,6 @@ Potential future enhancements include:
 - Lift Chart
 - Gain Chart
 - Customer Segmentation
-- Predictive Modeling
+- Predictive Modelling
 - Python
 - Data Visualization
